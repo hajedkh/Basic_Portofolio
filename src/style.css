@@ -1,5 +1,7 @@
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -28,6 +30,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+    /*background-color: #262731;*/
 }
 
 ul {
@@ -35,7 +38,7 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 ul.show {
@@ -84,6 +87,9 @@ a {
     margin-left: 40px;
     margin-bottom: 200px;
 }
+#myIntro{
+    font-size: 20px ;
+}
 
 .button {
     width: 200px;
@@ -111,7 +117,7 @@ a {
 }
 
 .logo{
-    height: 100px; 
+    height: 70px; 
     margin: 7px;
 }
 
@@ -136,12 +142,17 @@ a {
 
 
 .headshot {
-    width: 350px;
-    border-radius: 175px;
+    width: 400px;
+    border-radius: 200px;
+    border: 4px solid coral;
+    padding: 3px;
+    
 }
 .headshot-container {
     display: flex;
     align-items: center;
+    padding-bottom: 75px;
+    padding: 100px;
 
 }
 
@@ -149,12 +160,14 @@ a {
     width: 300px;
     height: 400px;
     box-shadow: 5px 5px 20px rgb(160, 160, 160);
-    margin-top: 10px;
+    
+
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+    
     
 }
 
